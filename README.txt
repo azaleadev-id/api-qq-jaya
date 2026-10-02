@@ -112,4 +112,3 @@ Untuk deployment production:
 - set `APP_DEBUG=false`;
 - gunakan HTTPS;
 - batasi CORS ke origin aplikasi yang diperlukan bila API digunakan dari browser;
-- jangan commit dump database production atau file konfigurasi hosting yang berisi credential.
