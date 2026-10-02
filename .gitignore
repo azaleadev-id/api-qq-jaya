@@ -1,0 +1,29 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Database dumps and backups
+*.sql.gz
+*.dump
+*.bak
+*.backup
+
+# Archives
+*.zip
+*.tar
+*.tgz
+*.7z
+
+# Logs and runtime files
+*.log
+logs/
+storage/
+tmp/
+temp/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
